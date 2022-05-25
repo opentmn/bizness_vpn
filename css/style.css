@@ -2,6 +2,10 @@
 .wrapper {
 }
 .header {
+    font-size: 2em;
+    color: white;
+    margin-top: 140px;
+    margin-left: 3em;
 }
 .container {
 }
