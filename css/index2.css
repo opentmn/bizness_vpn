@@ -19,7 +19,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+.img__block {
+  width: 70px;
+  height: 70px;
+}
+img {
+  width: 100%;
 }
 .img__block p {
   margin-top: 12px;
@@ -27,12 +34,14 @@
   color: white;
 }
 .btn {
-  margin-top: -40px;
+  margin-top: -10px;
   font-size: 24px;
   padding: 5px;
   border: 1px solid red;
   border-radius: 5px;
   height: 40px;
+  background-color: green;
+  color: white;
 }
 .footer {
 }
