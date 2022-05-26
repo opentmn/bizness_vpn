@@ -52,8 +52,9 @@ img {
   padding: 12px;
 }
 .modal {
-  width: 250px;
-  height: 200px;
+  display: none;
+  width: 270px;
+  height: 220px;
   padding: 22px;
   border: 2px solid red;
 
@@ -61,7 +62,7 @@ img {
   position: absolute;
   background: #c6c6c6;
   top: 30%;
-  right: 12%;
+  right: 10%;
 }
 .close__block {
   width: 20px;
