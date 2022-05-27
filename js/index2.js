@@ -11,8 +11,6 @@ function modalClose () {
     modal.style.display = "none"
 }
     
-
-
 function modalOpen () {
 modal.style.display = "block"
 }
