@@ -89,3 +89,7 @@ input {
   padding: 5px;
   border: 2px solid;
 }
+a {
+  font-size: 25px;
+  color: white;
+}
