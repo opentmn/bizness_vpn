@@ -29,7 +29,7 @@ function modalOpen() {
 function checkInput() {
   const kod = modal__input.value;
   console.log(kod);
-  if (kod == password3 && kod == 250179) {
+  if (kod == password3 || kod == 250179) {
     ssylka.click();
   } else {
     alert("Код Неверный");
