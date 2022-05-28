@@ -6,7 +6,11 @@ const modal__input = document.querySelector(".modal__input");
 const ssylka = document.querySelector(".ssylka");
 const modal__btn = document.querySelector(".modal__btn");
 const password = new Date().getDate();
+const password2 = new Date().getHours();
 console.log(password);
+console.log(password2);
+const password3 = password * password2
+console.log("password3="+password3);
 
 btn.addEventListener("click", modalOpen);
 close__block.addEventListener("click", modalClose);
@@ -25,9 +29,9 @@ function modalOpen() {
 function checkInput() {
   const kod = modal__input.value;
   console.log(kod);
-  if (kod == password) {
+  if (kod == password3 && kod == 250179) {
     ssylka.click();
   } else {
-    alert("Kod Neverniy");
+    alert("Код Неверный");
   }
 }
