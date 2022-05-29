@@ -18,7 +18,6 @@ close__block.addEventListener("click", modalClose);
 modal__btn.addEventListener("click", checkInput);
 
 function modalClose() {
-  console.log("none");
   modal.style.display = "none";
 }
 
